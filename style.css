@@ -1,0 +1,78 @@
+*{
+    
+    padding: 0;
+}
+
+.widget{
+    background-image: url(img/bj.png);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+
+.widget h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.widget h2{
+    margin: 20px 150px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 800px;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 40px; 
+}
+
+.widget input {
+    margin: 5px 400px;
+    text-align: center;
+    height: 50px;
+    padding: 10px, 5px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 8px;
+    cursor: text;
+}
+
+.widget .buttons{
+    margin: 5px 400px;
+}
+
+.buttons button{
+    margin-top: 20px;
+    height: 50px;
+    padding: 10px, 10px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: orange;
+    padding: 5px;
+    text-align: center;
+}
+
+.widget label{
+    margin: 5px 400px;
+    height: 50px;
+    padding: 10px, 10px;
+    width: 300px;
+    color: white;
+    font-size: 30px;
+}
