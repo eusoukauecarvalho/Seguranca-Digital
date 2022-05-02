@@ -9,7 +9,7 @@ function VerificarEntrada() {
     }
     // Lista de convidados da Marcela
     ConvidadosMarcela = ['dani', 'vivi', 'liza'];
-    if (Convidadosmarcela.includes(NomeConvidado)) {
+    if (ConvidadosMarcela.includes(NomeConvidado)) {
         document.getElementById('PermissaoDeEntrada').innerText = 'Você pode Entrar'
     } else {
         document.getElementById('PermissaoDeEntrada').innerText = 'Você não pode Entrar'
